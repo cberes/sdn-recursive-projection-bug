@@ -21,7 +21,7 @@ And a corresponding projection that references itself as well
       List<PersonWithChildrenRecursive> getChildren();
     }
 
-You cannot save a person using this projection
+You cannot save a node using this projection
 
     Person alice = new Person();
     alice.setName("Alice");
