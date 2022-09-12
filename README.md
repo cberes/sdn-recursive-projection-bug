@@ -7,7 +7,7 @@ For example, say you have a node entity that recursively references itself
 
     @Getter
     @Node
-    public abstract class Person {
+    public class Person {
       private String name;
 
       private List<Person> children = new LinkedList<>();
